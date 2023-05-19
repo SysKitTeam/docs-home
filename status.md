@@ -1,5 +1,5 @@
 ---
-description: This article provides information about SysKit systems operationality.
+description: This article provides information about SysKit systems' operationality.
 ---
 
 # System Status
