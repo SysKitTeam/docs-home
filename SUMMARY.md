@@ -8,3 +8,4 @@
   * [SysKit Insights](products/syskit-insights.md)
   * [SysKit Monitor](products/syskit-monitor.md)
   * [SharePoint Best Practices](products/sharepoint-best-practices.md)
+* [Status](status.md)
