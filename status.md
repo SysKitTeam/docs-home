@@ -8,7 +8,7 @@ description: This article provides information about SysKit systems' operational
 All Systems Operational
 {% endhint %}
 
-### SysKit Systems
+## SysKit Systems
 
 | System                           | Status      |
 | -------------------------------- | ----------- |
