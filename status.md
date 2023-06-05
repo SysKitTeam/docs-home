@@ -15,3 +15,5 @@ All Systems Operational
 | **Website**                      | Operational |
 | **SysKit Point Cloud Instances** | Operational |
 | **Subscriptions Portal**         | Operational |
+
+[Report a security incident](report-security-incident.md)
