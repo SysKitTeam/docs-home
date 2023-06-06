@@ -1,12 +1,12 @@
 # Table of contents
 
-* [SysKit Docs](README.md)
+* [Syskit Docs](README.md)
 * [Products](products/README.md)
-  * [SysKit Point](products/syskit-point.md)
+  * [Syskit Point](products/syskit-point.md)
   * [SPDocKit](products/spdockit.md)
   * [SPDocKit Consultant](products/spdockit-consultant.md)
-  * [SysKit Insights](products/syskit-insights.md)
-  * [SysKit Monitor](products/syskit-monitor.md)
+  * [Syskit Insights](products/syskit-insights.md)
+  * [Syskit Monitor](products/syskit-monitor.md)
   * [SharePoint Best Practices](products/sharepoint-best-practices.md)
 * [System Status](status.md)
 * [Report a Security Incident](report-security-incident.md)

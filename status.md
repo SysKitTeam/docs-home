@@ -1,5 +1,5 @@
 ---
-description: This article provides information about SysKit systems' operationality.
+description: This article provides information about Syskit systems' operationality.
 ---
 
 # System Status
@@ -8,12 +8,12 @@ description: This article provides information about SysKit systems' operational
 All Systems Operational
 {% endhint %}
 
-## SysKit Systems
+## Syskit Systems
 
 | System                           | Status      |
 | -------------------------------- | ----------- |
 | **Website**                      | Operational |
-| **SysKit Point Cloud Instances** | Operational |
+| **Syskit Point Cloud Instances** | Operational |
 | **Subscriptions Portal**         | Operational |
 
 [Report a security incident](report-security-incident.md)
