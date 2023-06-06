@@ -9,3 +9,4 @@
   * [SysKit Monitor](products/syskit-monitor.md)
   * [SharePoint Best Practices](products/sharepoint-best-practices.md)
 * [System Status](status.md)
+* [Report a Security Incident](report-security-incident.md)
