@@ -21,3 +21,5 @@ Information to include in the report:
     * Description of the information security problem
     * Date and time the problem was first noticed (if possible)
     * Any other known resources affected
+
+{% hint style="info" %} Syskit does NOT have any bug bounty programs in place. {% endhint %}
