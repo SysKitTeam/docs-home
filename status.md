@@ -13,8 +13,8 @@ Some Systems Are Experiencing Issues
 | System                           | Status      |
 | -------------------------------- | ----------- |
 | **Website**                      | Operational |
-| **Syskit Point Cloud Instances** | Issue |
-| **Subscriptions Portal**         | Operational |
+| **Syskit Point Cloud Instances** | Operational |
+| **Subscriptions Portal**         | Issue |
 
 [Report a security incident](report-security-incident.md)
 
