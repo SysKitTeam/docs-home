@@ -24,6 +24,16 @@ Some Systems Are Experiencing Issues
 **Customers might be unable to provision free-trial instances through the Subscriptions Portal**
 * November 2, 11:54 UTC **Identified** - Due to Cloudflare API service issues, customers can expect to experience issues when trying to connect their M365 tenant to a Syskit Point free trial instance.
 
+##### Issue Description
+We are currently experiencing a service disruption that is the result of an issue with one of our external service providers. The problem is related to a DNS support outage resulting in an inability to provision the Point instance with the desired domain name.
+ 
+##### Resolution
+We are committed to restoring regular service as soon as possible. 
+In the meantime, here's what you can expect from us:
+* We will provide regular updates on the progress of the resolution.
+* We will make sure to contact you when the issue is resolved to give it another try.
+* Our support team can assist you with any questions or concerns.
+
 ## Past Incidents
 
 #### August 30, 2023
