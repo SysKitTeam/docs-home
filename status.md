@@ -4,19 +4,23 @@ description: This article provides information about Syskit systems' operational
 
 # System Status
 
-{% hint style="success" %}
-All Systems Operational
-{% endhint %}
+{% hint style="warning" %} Some Systems Are Experiencing Issues {% endhint %}
 
 ## Syskit Systems
 
 | System                           | Status      |
 | -------------------------------- | ----------- |
 | **Website**                      | Operational |
-| **Syskit Point Cloud Instances** | Operational |
+| **Syskit Point Cloud Instances** | Issue|
 | **Subscriptions Portal**         | Operational |
 
 [Report a security incident](report-security-incident.md)
+
+## Current Incidents
+
+#### January 16, 2024
+**Syskit Point is unable to process and collect Unified Audit Logs.**
+* January 16, 12:03 UTC **Identified** - API requests sent to retrieve Unified Audit Logs are failing, resulting in Audit Logs not being processed and collected. The issue is restricted to the Europe region. We're working with third-party vendors to resolve the issue.
 
 ## Past Incidents
 
