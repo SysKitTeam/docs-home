@@ -4,8 +4,8 @@ description: This article provides information about Syskit systems' operational
 
 # System Status
 
-{% hint style="warning" %}
-Some Systems Are Experiencing Issues
+{% hint style="success" %}
+All Systems Operational
 {% endhint %}
 
 ## Syskit Systems
@@ -13,18 +13,18 @@ Some Systems Are Experiencing Issues
 | System                           | Status      |
 | -------------------------------- | ----------- |
 | **Website**                      | Operational |
-| **Syskit Point Cloud Instances** | Issue |
+| **Syskit Point Cloud Instances** | Operational |
 | **Subscriptions Portal**         | Operational |
 
 [Report a security incident](report-security-incident.md)
 
-## Current Incidents
+## Past Incidents
+
 #### January 21, 2024
 **Syskit Point instaces are unavailable due to Microsoft services unavailability.**
 * January 21, 01:57 UTC **Identified** - Azure Portal, Azure Key Vault, and other Microsoft services are not accessible, resulting in Syskit Point instances unavailability. 
 * January 21, 08:00 UTC **Status update** - The impact has been mitigated for most regions, except for West Europe. 
-
-## Past Incidents
+* January 21, 08:58 UTC **Resolved** - Microsoft services returned to a healthy status. As a result, Syskit Point instances can be accessed again.
 
 #### January 16, 2024
 **Syskit Point is unable to process and collect Unified Audit Logs.**
