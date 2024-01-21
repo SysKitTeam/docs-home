@@ -22,7 +22,7 @@ Some Systems Are Experiencing Issues
 #### January 21, 2024
 **Syskit Point instaces are unavailable due to Microsoft services unavailability.**
 * January 21, 01:57 UTC **Identified** - Azure Portal, Azure Key Vault, and other Microsoft services are not accessible, resulting in Syskit Point instances unavailability. 
-* January 21, 08:00 UTC **Status update**. The impact has been mitigated for most regions, except for West Europe. 
+* January 21, 08:00 UTC **Status update** - The impact has been mitigated for most regions, except for West Europe. 
 
 ## Past Incidents
 
