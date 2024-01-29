@@ -25,6 +25,12 @@ Some Systems Are Experiencing Issues
 
 ## Past Incidents
 
+#### January 21, 2024
+**Syskit Point instaces are unavailable due to Microsoft services unavailability.**
+* January 21, 01:57 UTC **Identified** - Azure Portal, Azure Key Vault, and other Microsoft services are not accessible, resulting in Syskit Point instances unavailability. 
+* January 21, 08:00 UTC **Status update** - The impact has been mitigated for most regions, except for West Europe. 
+* January 21, 08:58 UTC **Resolved** - Microsoft services returned to a healthy status. As a result, Syskit Point instances can be accessed again.
+
 #### January 16, 2024
 **Syskit Point is unable to process and collect Unified Audit Logs.**
 * January 16, 17:20 UTC **Resolved** - No further issues were detected when sending requests to retrieve Unified Audit Logs.
