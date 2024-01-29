@@ -21,7 +21,7 @@ Some Systems Are Experiencing Issues
 ## Current Incidents
 #### January 29, 2024
 **Customers cannot access Subscriptions Portal**
-* January 29, 10:58 **Identified** - Subscriptions Portal cannot be accessed. An attempt to do so results in a timeout error. We are working on resolving the issue as soon as possible.
+* January 29, 10:58 UTC **Identified** - Subscriptions Portal cannot be accessed. An attempt to do so results in a timeout error. We are working on resolving the issue as soon as possible.
 
 ## Past Incidents
 
