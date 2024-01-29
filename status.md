@@ -4,8 +4,8 @@ description: This article provides information about Syskit systems' operational
 
 # System Status
 
-{% hint style="warning" %}
-Some Systems Are Experiencing Issues
+{% hint style="success" %}
+All Systems Operational
 {% endhint %}
 
 ## Syskit Systems
@@ -14,16 +14,16 @@ Some Systems Are Experiencing Issues
 | -------------------------------- | ----------- |
 | **Website**                      | Operational |
 | **Syskit Point Cloud Instances** | Operational |
-| **Subscriptions Portal**         | Issue |
+| **Subscriptions Portal**         | Operational |
 
 [Report a security incident](report-security-incident.md)
 
-## Current Incidents
+## Past Incidents
+
 #### January 29, 2024
 **Customers cannot access Subscriptions Portal**
 * January 29, 10:58 UTC **Identified** - Subscriptions Portal cannot be accessed. An attempt to do so results in a timeout error. Additionally, new customers can not connect their tenants to Point instances since the Subscriptions Portal app is utilized for this process. We are working on resolving the issue as soon as possible.
-
-## Past Incidents
+* January 29, 12:45 UTC **Resolved** - Subscriptions Portal app services are restored. Customers can access the Subscriptions Portal app and connect their tenants to empty Point trial instances.
 
 #### January 21, 2024
 **Syskit Point instaces are unavailable due to Microsoft services unavailability.**
