@@ -21,7 +21,7 @@ Some Systems Are Experiencing Issues
 ## Current Incidents
 #### January 29, 2024
 **Customers cannot access Subscriptions Portal**
-* January 29, 10:58 UTC **Identified** - Subscriptions Portal cannot be accessed. An attempt to do so results in a timeout error. We are working on resolving the issue as soon as possible.
+* January 29, 10:58 UTC **Identified** - Subscriptions Portal cannot be accessed. An attempt to do so results in a timeout error. Additionally, new customers can not connect their tenants to Point instances since the Subscriptions Portal app is utilized for this process. We are working on resolving the issue as soon as possible.
 
 ## Past Incidents
 
