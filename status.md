@@ -19,7 +19,7 @@ Some Systems Are Experiencing Issues
 [Report a security incident](report-security-incident.md)
 
 ## Current Incidents
-#### Feb 6, 2023
+#### Feb 5, 2023
 **Customers are unable to connect new Point trial instances and purchase plans.**
 * Feb 5, 17:30 UTC **Identified** - Downtime of a 3rd party provider causes errors when customers try to connect to a trial instance or try to purchase a plan. Both actions require creating a license by a 3rd party provider, which is currently not possible. We are monitoring licensed Point instances and are working on resolving the issue with the 3rd party provider.
 
