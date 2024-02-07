@@ -4,8 +4,8 @@ description: This article provides information about Syskit systems' operational
 
 # System Status
 
-{% hint style="warning" %}
-Some Systems Are Experiencing Issues
+{% hint style="success" %}
+All Systems Operational
 {% endhint %}
 
 ## Syskit Systems
@@ -14,16 +14,16 @@ Some Systems Are Experiencing Issues
 | -------------------------------- | ----------- |
 | **Website**                      | Operational |
 | **Syskit Point Cloud Instances** | Operational |
-| **Subscriptions Portal**         | Issue |
+| **Subscriptions Portal**         | Operational |
 
 [Report a security incident](report-security-incident.md)
 
-## Current Incidents
+## Past Incidents
+
 #### Feb 5, 2023
 **Customers are unable to connect new Point trial instances and purchase plans.**
 * Feb 5, 17:30 UTC **Identified** - Downtime of a 3rd party provider causes errors when customers try to connect to a trial instance or try to purchase a plan. Both actions require creating a license by a 3rd party provider, which is currently not possible. We are monitoring licensed Point instances and are working on resolving the issue with the 3rd party provider.
-
-## Past Incidents
+* Feb 7, 08:15 UTC **Resolved** - After recovery of 3rd party provider services, additional changes were performed in our systems to recover all functionality.  Creating a license is working again, meaning customers can connect to trial instances and purchase plans without issues.
 
 #### January 29, 2024
 **Customers cannot access Subscriptions Portal**
