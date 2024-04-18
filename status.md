@@ -4,6 +4,8 @@ description: This article provides information about Syskit systems' operational
 
 # System Status
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Click here to access the System Status page</td><td></td><td></td><td><a href="https://syskit.betteruptime.com/">https://syskit.betteruptime.com/</a></td></tr></tbody></table>
+### [Click here to access the incident tracking page](https://syskit.betteruptime.com/)
+
+***
 
 [Report a security incident](report-security-incident.md)
