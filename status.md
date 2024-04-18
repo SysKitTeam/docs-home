@@ -18,6 +18,11 @@ All Systems Operational
 
 [Report a security incident](report-security-incident.md)
 
+{% hint style="information" %}
+We are migrating to a new incident tracking system to provide you with more detailed and up-to-date information.\
+[You can access the new page by clicking here](https://syskit.betteruptime.com/).
+{% endhint %}
+
 ## Past Incidents
 
 #### Feb 5, 2024
