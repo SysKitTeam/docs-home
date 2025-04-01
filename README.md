@@ -11,7 +11,6 @@ description: The home for our technical documentation and best practices.
 * [Syskit Point](https://docs.syskit.com/point/)
 * [SPDocKit](https://docs.syskit.com/spdockit)
 * [SPDocKit Consultant](https://docs.syskit.com/spconsultant)
-* [Syskit Insights](https://docs.syskit.com/insights)
 * [Syskit Monitor](https://docs.syskit.com/monitor)
 * [SharePoint Best Practices](https://docs.syskit.com/bp)
 
