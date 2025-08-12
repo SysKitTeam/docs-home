@@ -7,19 +7,52 @@
     if (metaDescription) {
       const description = metaDescription.getAttribute('content');
       
-      // Find the main article title
-      const articleTitle = document.querySelector('.theme-doc-markdown header h1');
-      
-      if (articleTitle && description && description.trim() !== '') {
-        // Check if description element already exists
-        if (!articleTitle.nextElementSibling?.classList.contains('article-description')) {
-          // Create description element
-          const descriptionElement = document.createElement('div');
-          descriptionElement.className = 'article-description';
-          descriptionElement.textContent = description;
-          
-          // Insert after the title
-          articleTitle.parentNode.insertBefore(descriptionElement, articleTitle.nextSibling);
+      if (description && description.trim() !== '' && description !== "Description will go into a meta tag in <head />") {
+        // Try different selectors for different page types
+        let titleElement = null;
+        let insertLocation = null;
+        
+        // For documentation pages
+        const docTitle = document.querySelector('.theme-doc-markdown header h1');
+        if (docTitle) {
+          titleElement = docTitle;
+          insertLocation = docTitle.nextSibling;
+        }
+        
+        // For home page
+        if (!titleElement) {
+          const heroSubtitle = document.querySelector('.hero__subtitle');
+          if (heroSubtitle) {
+            titleElement = heroSubtitle;
+            insertLocation = heroSubtitle.nextSibling;
+          }
+        }
+        
+        // For other pages, try generic h1
+        if (!titleElement) {
+          const genericTitle = document.querySelector('h1');
+          if (genericTitle) {
+            titleElement = genericTitle;
+            insertLocation = genericTitle.nextSibling;
+          }
+        }
+        
+        if (titleElement) {
+          // Check if description element already exists
+          const existingDescription = titleElement.parentNode.querySelector('.article-description');
+          if (!existingDescription) {
+            // Create description element
+            const descriptionElement = document.createElement('div');
+            descriptionElement.className = 'article-description';
+            descriptionElement.textContent = description;
+            
+            // Insert after the title/subtitle
+            if (insertLocation) {
+              titleElement.parentNode.insertBefore(descriptionElement, insertLocation);
+            } else {
+              titleElement.parentNode.appendChild(descriptionElement);
+            }
+          }
         }
       }
     }
