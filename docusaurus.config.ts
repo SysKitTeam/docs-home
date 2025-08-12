@@ -63,6 +63,13 @@ const config: Config = {
     // 'docusaurus-plugin-hubspot',
   ],
 
+  scripts: [
+    {
+      src: '/home/js/description.js',
+      async: true,
+    },
+  ],
+
   themeConfig: {
     // HubSpot configuration
     // hubspot: {
