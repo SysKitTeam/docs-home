@@ -22,4 +22,6 @@ Information to include in the report:
     * Date and time the problem was first noticed (if possible)
     * Any other known resources affected
 
-{% hint style="info" %} Syskit does NOT have any bug bounty programs in place. {% endhint %}
+:::info
+Syskit does NOT have any bug bounty programs in place.
+:::
