@@ -1,4 +1,5 @@
 ---
+sidebar_position: 3
 description: This article provides information about Syskit systems' operationality.
 ---
 

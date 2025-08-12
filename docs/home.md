@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 slug: /
+hide_table_of_contents: true
 description: The home for our technical documentation and best practices.
 ---
 
