@@ -1,7 +1,6 @@
 ---
 sidebar_position: 4
 description: This article describes how to report a security incident.
-hide_table_of_contents: true
 ---
 
 # Report a Security Incident
