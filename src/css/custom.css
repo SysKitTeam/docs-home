@@ -289,7 +289,7 @@ a[target="_blank"] svg {
 
 /* Style for article description displayed after title */
 .article-description {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: normal !important; /* Remove bold */
   color: var(--ifm-menu-color, var(--ifm-color-content-secondary, #525860)) !important; /* Same color as sidebar menu text */
   margin-top: 0.5rem;
