@@ -1,4 +1,5 @@
 ---
+sidebar_position: 3
 description: The ultimate SharePoint administration tool developed for consultants.
 ---
 

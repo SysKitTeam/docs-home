@@ -1,4 +1,5 @@
 ---
+sidebar_position: 5
 description: Library of best practices for managing SharePoint farms' infrastructure.
 ---
 

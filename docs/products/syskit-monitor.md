@@ -1,4 +1,5 @@
 ---
+sidebar_position: 4
 description: Reporting and monitoring solution for Windows Servers.
 ---
 

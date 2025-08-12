@@ -6,25 +6,242 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #5700AF;
+  --ifm-color-primary-dark: #5700AF;
+  --ifm-color-primary-darker: #5700AF;
+  --ifm-color-primary-darkest: #5700AF;
+  --ifm-color-primary-light: #7933BF;
+  --ifm-color-primary-lighter: #9A66CF;
+  --ifm-color-primary-lightest: #DDCCEF;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #9A66CF;
+  --ifm-color-primary-dark: #7933BF;
+  --ifm-color-primary-darker: #5700AF;
+  --ifm-color-primary-darkest: #5700AF;
+  --ifm-color-primary-light: #9A66CF;
+  --ifm-color-primary-lighter: #BC99DF;
+  --ifm-color-primary-lightest: #DDCCEF;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+html, body {
+  font-family: Arial, sans-serif;
+}
+
+/* sidebar links*/
+.menu__link {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--ifm-menu-color);
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.375rem;
+}
+
+.menu__link:hover {
+  background-color: var(--ifm-menu-color-background-hover);
+  color: var(--ifm-menu-color);
+  text-decoration: none;
+}
+
+/* sidebar active link */
+.menu__link--active {
+  font-weight: 600;
+  color: var(--ifm-color-primary) !important;
+  background-color: var(--ifm-menu-color-background-active);
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left: 1px solid var(--ifm-color-primary);
+}
+
+.menu__link--active:hover {
+  background-color: var(--ifm-menu-color-background-active);
+  color: var(--ifm-color-primary) !important;
+}
+
+/* Sidebar categories */
+.menu__list-item-collapsible {
+  margin-bottom: 0.25rem;
+}
+
+.menu__list-item-collapsible > .menu__link {
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--ifm-color-emphasis-800);
+}
+
+/* Sidebar subcategory styling */
+.menu__list .menu__list {
+  padding-left: 1rem;
+  border-left: 1px solid var(--ifm-color-emphasis-200);
+  margin-left: 0.75rem;
+}
+
+/* Sidebar nested items */
+.menu__list .menu__list .menu__link {
+  font-size: 13px;
+  padding: 0.375rem 0.75rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+/* Category expand/collapse arrow */
+.menu__caret:before {
+  background: var(--ifm-menu-link-sublist-icon) 50%/1rem 1rem;
+}
+
+.menu__list-item-collapsible--active > .menu__link .menu__caret:before {
+  transform: rotate(90deg);
+}
+
+/* Sidebar container styling */
+.theme-doc-sidebar-container {
+  border-right: 1px solid var(--ifm-color-emphasis-200);
+}
+
+/* Main sidebar menu spacing */
+.menu_SIkG {
+  padding-top: 1rem !important;
+  padding-bottom: 3rem !important;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar link */
+.navbar__link {
+  font-size: 14px;
+  color: var(--ifm-menu-color);
+}
+
+.navbar__link--hover {
+  color: var(--ifm-color-primary);
+}
+
+.footer {
+  font-size: 14px;
+}
+
+.footer__title {
+  font-size: 14px
+}
+
+.footer__copyright {
+  text-align: left;
+}
+
+.footer__link-item:hover {
+  color: var(--ifm-color-primary-lighter) !important;
+}
+
+/* Remove default Docusaurus external link icon */
+.theme-edit-this-page svg,
+.hash-link svg,
+a[target="_blank"] .iconExternalLink_nPIU {
+  display: none !important;
+}
+
+/* Custom external link icon */
+a[href*="://"]::after,
+a[target="_blank"]::after {
+  content: " ↗" !important;
+  padding-left: 0px;
+  margin-left: 0px;
+  font-size: 14px;
+  vertical-align: middle;
+  /*color: var(--ifm-color-emphasis-600);
+  opacity: 0.8;*/
+}
+
+/* Style images in external links */
+a[href*="://"] img,
+a[target="_blank"] img,
+a[href*="://"] picture,
+a[target="_blank"] picture {
+  vertical-align: middle;
+}
+
+/* Remove underline from image links using a custom class only */
+a.image-link {
+  text-decoration: none !important;
+}
+
+a.image-link:hover {
+  text-decoration: none !important;
+}
+
+a.image-link:focus {
+  text-decoration: none !important;
+}
+
+a.image-link:active {
+  text-decoration: none !important;
+}
+
+/* Hide the default icon specifically */
+a[href*="://"] svg,
+a[target="_blank"] svg {
+  display: none !important;
+}
+
+/* Colapsible menu caret size and behavior */
+.menu__caret:before {
+    background: var(--ifm-menu-link-sublist-icon) 50%/1rem 1rem;
+}
+
+.menu__list-item-collapsible--active > .menu__link .menu__caret:before {
+    transform: rotate(90deg);
+}
+
+/* Dark mode sidebar adjustments */
+[data-theme='dark'] {
+  --ifm-menu-color-background-hover: rgba(255, 255, 255, 0.05);
+  --ifm-menu-color-background-active: rgba(135, 51, 191, 0.15);
+}
+
+/* Light mode sidebar adjustments */
+[data-theme='light'] {
+  --ifm-menu-color-background-hover: rgba(0, 0, 0, 0.05);
+  --ifm-menu-color-background-active: rgba(87, 0, 175, 0.1);
+}
+
+/* Them toggle icon size*/
+.toggle_vylO {
+    height: 1rem;
+    width: 1rem;
+    color: var(--ifm-menu-color);
+    padding-bottom: 0.2rem;
+}
+
+/* Card title smaller text*/
+.cardTitle_HoSo {
+    font-size: 1rem !important;
+    font-weight: 400;
+}
+
+/* Pagination navigation style next */
+.pagination-nav__link--next .pagination-nav__label:after {
+    content: " ›" !important;
+}
+
+/* Pagination navigation style previous */
+.pagination-nav__link--prev .pagination-nav__label:before {
+    content: "‹ " !important;
+}
+
+/* Breadcrumbs active link - remove background*/
+.breadcrumbs__item--active .breadcrumbs__link {
+    background-color: transparent !important;
+}
+
+/* Breadcrumbs item font variant */
+.breadcrumbs__item {
+  text-transform: uppercase !important;
+}
+
+/* Bottom padding*/
+.padding-bottom--lg,
+.padding-vert--md {
+    padding-bottom: 3rem !important;
 }

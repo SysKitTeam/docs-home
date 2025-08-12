@@ -18,8 +18,8 @@ name = "docs-home-production"
 vars = { ENVIRONMENT = "production" }
 # Production routes
 [[env.production.routes]]
-pattern = "docs3.syskit.com"
-zone_name = "docs3.syskit.com"
+pattern = "docs3.syskit.com/home*"
+zone_name = "syskit.com"
 
 # Development environment configuration (local testing)
 [env.dev]
@@ -32,5 +32,5 @@ name = "docs-home-staging"
 vars = { ENVIRONMENT = "staging" }
 # Staging routes
 [[env.staging.routes]]
-pattern = "docs-staging.syskit.com"
-zone_name = "docs-staging.syskit.com"
+pattern = "docs-staging.syskit.com/home*"
+zone_name = "syskit.com"

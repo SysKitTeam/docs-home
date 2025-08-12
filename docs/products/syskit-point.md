@@ -1,4 +1,5 @@
 ---
+sidebar_position: 1
 description: Role-based Office 365 governance tool created by Syskit.
 ---
 
