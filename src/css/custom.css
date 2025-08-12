@@ -250,3 +250,39 @@ a[target="_blank"] svg {
 .pagination-nav {
   display: none !important;
 }
+
+/* Custom styling for "Last updated" element */
+.theme-last-updated {
+  color: #6c757d !important; /* Grey color */
+  font-weight: normal !important; /* Remove bold */
+  font-style: normal !important; /* Remove italic/cursive */
+  font-size: 14px !important; /* Set font size to 14px */
+}
+
+/* Also target the time element inside to ensure consistency */
+.theme-last-updated time {
+  font-weight: normal !important; /* Remove bold from date */
+  font-style: normal !important; /* Remove italic from date */
+  font-size: 14px !important; /* Set font size to 14px */
+}
+
+/* Position the last updated container to the left */
+.col.lastUpdated_JAkA {
+  text-align: left !important;
+  justify-content: flex-start !important;
+}
+
+/* Alternative selector for last updated positioning */
+.theme-doc-footer .col {
+  text-align: left !important;
+}
+
+/* Hide empty col divs that appear before last updated info */
+.theme-doc-footer .col:empty {
+  display: none !important;
+}
+
+/* More specific selector to hide empty divs in the footer row */
+.theme-doc-footer .row .col:not(.lastUpdated_JAkA):empty {
+  display: none !important;
+}
