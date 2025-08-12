@@ -245,3 +245,8 @@ a[target="_blank"] svg {
 .padding-vert--md {
     padding-bottom: 3rem !important;
 }
+
+/* Hide previous/next page navigation */
+.pagination-nav {
+  display: none !important;
+}
