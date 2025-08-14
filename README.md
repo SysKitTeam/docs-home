@@ -5,14 +5,14 @@ This website is built using [Docusaurus](https://docusaurus.io/), a modern stati
 ## Installation
 
 ```bash
-yarn
+npm install
 ```
 
 ## Local Development
 
 ### Standard Docusaurus Development
 ```bash
-yarn start
+npm start
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
@@ -23,19 +23,19 @@ For testing the site with the actual Cloudflare Worker environment locally:
 
 ```bash
 # Build and run with Cloudflare Workers dev server (recommended)
-yarn dev
+npm run dev
 
 # Run locally without connecting to Cloudflare (faster, but less accurate)
-yarn dev:local
+npm run dev:local
 
 # Run with remote Cloudflare environment (slower, but most accurate)
-yarn dev:remote
+npm run dev:remote
 
 # Run worker dev server on specific port
-yarn worker:dev
+npm run worker:dev
 ```
 
-The `yarn dev` command will:
+The `npm run dev` command will:
 1. Build your Docusaurus site
 2. Start the Cloudflare Workers development server
 3. Serve your site through the worker (usually at `http://localhost:8787`)
@@ -50,7 +50,7 @@ This allows you to test:
 ## Build
 
 ```bash
-yarn build
+npm run build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
