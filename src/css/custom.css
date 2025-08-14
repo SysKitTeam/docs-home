@@ -297,3 +297,7 @@ a[target="_blank"] svg {
   line-height: 1.4;
   font-style: normal !important; /* Remove italic */
 }
+
+.padding--card {
+  padding: 0.5rem !important;
+}
