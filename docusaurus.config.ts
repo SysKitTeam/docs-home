@@ -60,14 +60,14 @@ const config: Config = {
   ],
 
   plugins: [
-    // 'docusaurus-plugin-hubspot',
+    'docusaurus-plugin-hubspot',
   ],
 
   themeConfig: {
     // HubSpot configuration
-    // hubspot: {
-    //   accountId: '20687839',
-    // },
+    hubspot: {
+      accountId: '145913877',
+    },
     // Comment if not needed
     // announcementBar: {
     //   id: 'power_platform_promotion',
