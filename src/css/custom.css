@@ -135,41 +135,21 @@ html, body {
   color: var(--ifm-color-primary-lighter) !important;
 }
 
-/* Adjust footer text colors to match site text colors */
+/* Adjust footer text to use consistent white color with proper opacity */
 .footer {
-  color: var(--ifm-color-content-secondary) !important;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .footer__title {
-  color: var(--ifm-color-content) !important;
+  color: rgba(255, 255, 255, 0.95);
 }
 
 .footer__link-item {
-  color: var(--ifm-color-content-secondary) !important;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .footer__copyright {
-  color: var(--ifm-color-content-secondary) !important;
-}
-
-/* More specific selectors for footer links and copyright */
-.footer .footer__link-item,
-.footer .footer__links .footer__link-item,
-.footer__links a,
-.footer a {
-  color: var(--ifm-color-content-secondary) !important;
-}
-
-.footer .footer__copyright,
-.footer__copyright {
-  color: var(--ifm-color-content-secondary) !important;
-}
-
-/* Ensure hover state still works */
-.footer .footer__link-item:hover,
-.footer__links a:hover,
-.footer a:hover {
-  color: var(--ifm-color-primary-lighter) !important;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 /* Remove default Docusaurus external link icon */
