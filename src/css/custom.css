@@ -301,3 +301,18 @@ a[target="_blank"] svg {
 .padding--card {
   padding: 0.5rem !important;
 }
+
+/* Search highlight styling */
+mark {
+  background-color: var(--ifm-color-primary-lightest) !important; /* Light purple background */
+  color: var(--ifm-color-primary-darkest) !important; /* Dark purple text */
+  padding: 0.1rem 0.2rem;
+  border-radius: 0.2rem;
+}
+
+/* Dark mode search highlight styling */
+[data-theme='dark'] mark {
+  background-color: var(--ifm-color-primary-darker) !important; /* Darker purple background for dark mode */
+  color: var(--ifm-color-primary-lightest) !important; /* Light purple text for dark mode */
+}
+

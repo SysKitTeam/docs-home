@@ -61,6 +61,12 @@ const config: Config = {
 
   plugins: [
     'docusaurus-plugin-hubspot',
+    [
+      'docusaurus-lunr-search',
+      {
+        highlightResult: true,
+      },
+    ],
   ],
 
   themeConfig: {
