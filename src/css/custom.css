@@ -384,7 +384,7 @@ mark {
 /* Info admonition styling */
 .theme-admonition-info {
   border-left-color: var(--ifm-color-primary-lighter);
-  background-color: var(--ifm-color-emphasis-100);
+  background-color: var(--ifm-color-primary-lightest);
 }
 
 .theme-admonition-info::before {
@@ -392,12 +392,12 @@ mark {
 }
 
 [data-theme='dark'] .theme-admonition-info {
-  border-left-color: var(--ifm-color-primary-darker);
+  border-left-color: var(--ifm-color-primary);
   background-color: var(--ifm-menu-color-background-active, rgba(154, 102, 207, 0.15));
 }
 
 [data-theme='dark'] .theme-admonition-info::before {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3e%3ccircle cx='10' cy='10' r='10' fill='%235700AF'/%3e%3ctext x='10' y='14' font-family='Arial, sans-serif' font-size='12' font-weight='bold' text-anchor='middle' fill='white'%3ei%3c/text%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3e%3ccircle cx='10' cy='10' r='10' fill='%237C4DFF'/%3e%3ctext x='10' y='14' font-family='Arial, sans-serif' font-size='12' font-weight='bold' text-anchor='middle' fill='white'%3ei%3c/text%3e%3c/svg%3e");
 }
 
 /* Admonition content styling */
