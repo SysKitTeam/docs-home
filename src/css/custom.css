@@ -466,3 +466,9 @@ mark {
   fill: var(--ifm-color-success);
 }
 
+/* Card list styling */
+.docCardListItem_W1sv .cardContainer_S8oU {
+  border-radius: 3px !important;
+  box-shadow: none !important;
+}
+
