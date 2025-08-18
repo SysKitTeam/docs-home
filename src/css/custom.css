@@ -20,6 +20,7 @@
   --ifm-color-warning: #FFA100 ;
   --ifm-color-danger: #FA6452 ;
   --ifm-color-success: #008F4C;
+  --custom-admonition-info-bg-light: color-mix(in srgb, var(--ifm-color-primary-lighter) 15%, transparent);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -384,7 +385,7 @@ mark {
 /* Info admonition styling */
 .theme-admonition-info {
   border-left-color: var(--ifm-color-primary-lighter);
-  background-color: var(--ifm-color-primary-contrast-background);
+  background-color: var(--custom-admonition-info-bg-light);
 }
 
 .theme-admonition-info::before {
