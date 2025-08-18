@@ -384,7 +384,7 @@ mark {
 /* Info admonition styling */
 .theme-admonition-info {
   border-left-color: var(--ifm-color-primary-lighter);
-  background-color: var(--ifm-color-primary-lightest);
+  background-color: var(--ifm-color-primary-contrast-background);
 }
 
 .theme-admonition-info::before {
