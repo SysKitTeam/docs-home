@@ -472,3 +472,28 @@ mark {
   box-shadow: none !important;
 }
 
+/* Search placeholder text */
+.navbar__search-input::placeholder {
+  content: 'Search';
+}
+
+.navbar__search-input::-webkit-input-placeholder {
+  content: 'Search';
+}
+
+.navbar__search-input::-moz-placeholder {
+  content: 'Search';
+}
+
+/* Search input styling */
+.navbar__search-input {
+  background-color: transparent !important;
+  border-radius: 5px !important;
+  border: 1px solid var(--ifm-color-emphasis-300) !important;
+}
+
+/* Dark theme search input border */
+[data-theme='dark'] .navbar__search-input {
+  border-color: var(--ifm-color-emphasis-200) !important;
+}
+
