@@ -472,19 +472,6 @@ mark {
   box-shadow: none !important;
 }
 
-/* Search placeholder text */
-.navbar__search-input::placeholder {
-  content: 'Search';
-}
-
-.navbar__search-input::-webkit-input-placeholder {
-  content: 'Search';
-}
-
-.navbar__search-input::-moz-placeholder {
-  content: 'Search';
-}
-
 /* Search input styling */
 .navbar__search-input {
   background-color: transparent !important;
