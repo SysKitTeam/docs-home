@@ -15,6 +15,11 @@
   --ifm-color-primary-lightest: #DDCCEF;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  
+  /* Custom admonition colors */
+  --ifm-color-warning: #FFA100 ;
+  --ifm-color-danger: #FA6452 ;
+  --ifm-color-success: #008F4C;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -27,6 +32,11 @@
   --ifm-color-primary-lighter: #BC99DF;
   --ifm-color-primary-lightest: #DDCCEF;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  
+  /* Custom admonition colors for dark theme */
+  --ifm-color-warning: #FFA100;
+  --ifm-color-danger: #FA6452;
+  --ifm-color-success: #008F4C;
 }
 
 html, body {
@@ -341,5 +351,116 @@ mark {
 /* Light mode - ensure we have a dark icon */
 [data-theme='light'] .navbar__search-input {
   --ifm-navbar-search-input-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%23525860' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' viewBox='0 0 24 24'%3e%3ccircle cx='11' cy='11' r='8'/%3e%3cpath d='m21 21-4.35-4.35'/%3e%3c/svg%3e") !important;
+}
+
+/* Admonition (Info boxes, Warning, etc.) styling */
+.theme-admonition {
+  border-radius: 0.5rem;
+  border-left-width: 4px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+/* Hide the heading container completely */
+.admonitionHeading_Gvgb {
+  display: none;
+}
+
+/* Show only the icon and position it */
+.theme-admonition::before {
+  content: '';
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-right: 0.75rem;
+  margin-top: 0.1rem;
+  flex-shrink: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Info admonition styling */
+.theme-admonition-info {
+  border-left-color: var(--ifm-color-primary-dark);
+  background-color: var(--ifm-color-primary-lightest);
+}
+
+.theme-admonition-info::before {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3e%3ccircle cx='10' cy='10' r='10' fill='%237933BF'/%3e%3ctext x='10' y='14' font-family='Arial, sans-serif' font-size='12' font-weight='bold' text-anchor='middle' fill='white'%3ei%3c/text%3e%3c/svg%3e");
+}
+
+[data-theme='dark'] .theme-admonition-info {
+  background-color: var(--ifm-color-primary-lightest);
+}
+
+[data-theme='dark'] .theme-admonition-info::before {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3e%3ccircle cx='10' cy='10' r='10' fill='%239A66CF'/%3e%3ctext x='10' y='14' font-family='Arial, sans-serif' font-size='12' font-weight='bold' text-anchor='middle' fill='white'%3ei%3c/text%3e%3c/svg%3e");
+}
+
+/* Admonition content styling */
+.admonitionContent_BuS1 {
+  flex: 1;
+  padding: 0;
+  margin: 0;
+}
+
+.admonitionContent_BuS1 p {
+  margin: 0;
+}
+
+/* Warning admonition */
+.theme-admonition-warning {
+  border-left-color: var(--ifm-color-warning);
+  background-color: rgba(255, 152, 0, 0.05);
+}
+
+[data-theme='dark'] .theme-admonition-warning {
+  background-color: rgba(255, 152, 0, 0.1);
+}
+
+.theme-admonition-warning .admonitionHeading_Gvgb {
+  color: var(--ifm-color-warning);
+}
+
+.theme-admonition-warning .admonitionIcon_Rf37 svg {
+  fill: var(--ifm-color-warning);
+}
+
+/* Danger/Error admonition */
+.theme-admonition-danger {
+  border-left-color: var(--ifm-color-danger);
+  background-color: rgba(244, 67, 54, 0.05);
+}
+
+[data-theme='dark'] .theme-admonition-danger {
+  background-color: rgba(244, 67, 54, 0.1);
+}
+
+.theme-admonition-danger .admonitionHeading_Gvgb {
+  color: var(--ifm-color-danger);
+}
+
+.theme-admonition-danger .admonitionIcon_Rf37 svg {
+  fill: var(--ifm-color-danger);
+}
+
+/* Success/Tip admonition */
+.theme-admonition-tip {
+  border-left-color: var(--ifm-color-success);
+  background-color: rgba(76, 175, 80, 0.05);
+}
+
+[data-theme='dark'] .theme-admonition-tip {
+  background-color: rgba(76, 175, 80, 0.1);
+}
+
+.theme-admonition-tip .admonitionHeading_Gvgb {
+  color: var(--ifm-color-success);
+}
+
+.theme-admonition-tip .admonitionIcon_Rf37 svg {
+  fill: var(--ifm-color-success);
 }
 
