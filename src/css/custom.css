@@ -20,7 +20,7 @@
   --ifm-color-warning: #FFA100 ;
   --ifm-color-danger: #FA6452 ;
   --ifm-color-success: #008F4C;
-  --custom-admonition-info-bg-light: color-mix(in srgb, var(--ifm-color-primary) 15%, transparent);
+  --custom-admonition-info-bg-light: color-mix(in srgb, var(--ifm-color-primary) 5%, transparent);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
