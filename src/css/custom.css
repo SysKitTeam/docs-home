@@ -152,6 +152,26 @@ html, body {
   color: var(--ifm-color-content-secondary) !important;
 }
 
+/* More specific selectors for footer links and copyright */
+.footer .footer__link-item,
+.footer .footer__links .footer__link-item,
+.footer__links a,
+.footer a {
+  color: var(--ifm-color-content-secondary) !important;
+}
+
+.footer .footer__copyright,
+.footer__copyright {
+  color: var(--ifm-color-content-secondary) !important;
+}
+
+/* Ensure hover state still works */
+.footer .footer__link-item:hover,
+.footer__links a:hover,
+.footer a:hover {
+  color: var(--ifm-color-primary-lighter) !important;
+}
+
 /* Remove default Docusaurus external link icon */
 .theme-edit-this-page svg,
 .hash-link svg,
