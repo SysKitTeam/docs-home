@@ -519,17 +519,23 @@ mark {
 }
 
 /* Search result items */
-.search-bar-dropdown .search-bar-suggestion {
+.search-bar-dropdown .search-bar-suggestion,
+.ds-dropdown-menu .ds-suggestion {
   color: var(--ifm-font-color-base) !important;
   border-bottom: 1px solid var(--ifm-color-emphasis-200) !important;
   border-right: none !important;
 }
 
 .search-bar-dropdown .search-bar-suggestion:hover,
-.search-bar-dropdown .search-bar-suggestion.cursor {
+.search-bar-dropdown .search-bar-suggestion.cursor,
+.ds-dropdown-menu .ds-suggestion:hover,
+.ds-dropdown-menu .ds-suggestion.ds-cursor,
+.ds-dropdown-menu .ds-suggestion[aria-selected="true"] {
   background-color: var(--ifm-menu-color-background-hover) !important;
   color: var(--ifm-font-color-base) !important;
   border-right: 3px solid var(--ifm-color-primary) !important;
+  border-left: none !important;
+  border-top: none !important;
 }
 
 /* Search result titles */
