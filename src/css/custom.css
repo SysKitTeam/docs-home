@@ -135,6 +135,23 @@ html, body {
   color: var(--ifm-color-primary-lighter) !important;
 }
 
+/* Adjust footer text colors to match site text colors */
+.footer {
+  color: var(--ifm-color-content-secondary) !important;
+}
+
+.footer__title {
+  color: var(--ifm-color-content) !important;
+}
+
+.footer__link-item {
+  color: var(--ifm-color-content-secondary) !important;
+}
+
+.footer__copyright {
+  color: var(--ifm-color-content-secondary) !important;
+}
+
 /* Remove default Docusaurus external link icon */
 .theme-edit-this-page svg,
 .hash-link svg,
