@@ -569,3 +569,27 @@ mark {
   color: var(--ifm-color-emphasis-500) !important;
 }
 
+.algolia-docsearch-suggestion--subcategory-column {
+  border-right-color: var(--ifm-color-primary) !important;
+}
+
+.algolia-autocomplete
+  .algolia-docsearch-suggestion--text
+  .algolia-docsearch-suggestion--highlight {
+  padding: 0 0 1px;
+  background: inherit;
+  box-shadow: inset 0 -2px 0 0 var(--ifm-color-primary-lighter) !important;
+  color: inherit;
+}
+
+.algolia-autocomplete .ds-cursor .algolia-docsearch-suggestion--wrapper {
+  box-shadow: inset -2px 0 0 var(--ifm-color-primary-lighter) !important;
+}
+
+.algolia-autocomplete .algolia-docsearch-suggestion code {
+  font-family: Arial, sans-serif !important;
+}
+
+.searchbox__reset.hide {
+  display: block !important;
+}

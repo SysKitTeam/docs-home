@@ -65,6 +65,7 @@ const config: Config = {
       'docusaurus-lunr-search',
       {
         highlightResult: true,
+        disableVersioning: true,
       },
     ],
   ],
