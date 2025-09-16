@@ -446,4 +446,5 @@ a[target="_blank"] svg {
 .docCardListItem_W1sv .cardContainer_S8oU {
   border-radius: 5px !important;
   box-shadow: none !important;
+  border: 1px solid var(--ifm-color-emphasis-300) !important;
 }
