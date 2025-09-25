@@ -248,6 +248,11 @@ a[target="_blank"] svg {
     font-weight: 500 !important;
 }
 
+/* Hide pagination navigation (Previous/Next buttons) from all articles */
+.pagination-nav {
+  display: none !important;
+}
+
 /* Pagination navigation style next */
 .pagination-nav__link--next .pagination-nav__label:after {
     content: " ›" !important;
