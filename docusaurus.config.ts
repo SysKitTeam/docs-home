@@ -97,7 +97,7 @@ const config: Config = {
     navbar: {
       title: 'Syskit Docs',
       logo: {
-        alt: 'SharePoint Best Practices Logo',
+        alt: 'Syskit Docs Logo',
         src: 'img/logo.svg',
         srcDark: 'img/logo-dark.svg',
         href: '/', // Link to the docs homepage
