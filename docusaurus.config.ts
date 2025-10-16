@@ -63,7 +63,7 @@ const config: Config = {
   ],
 
   plugins: [
-    // 'docusaurus-plugin-hubspot',
+    'docusaurus-plugin-hubspot',
     [
       'docusaurus-lunr-search',
       {
@@ -71,13 +71,19 @@ const config: Config = {
         disableVersioning: true,
       },
     ],
+    [
+      '@docusaurus/plugin-google-tag-manager',
+      {
+        containerId: 'GTM-NFPDG3D', // Replace with your GTM container ID
+      },
+    ],
   ],
 
   themeConfig: {
     // HubSpot configuration
-    // hubspot: {
-    //   accountId: '145913877',
-    // },
+    hubspot: {
+      accountId: '145896435',
+    },
     // Comment if not needed
     // announcementBar: {
     //   id: 'power_platform_promotion',
