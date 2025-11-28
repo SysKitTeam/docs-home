@@ -26,11 +26,9 @@ const config: Config = {
   projectName: 'Syskit Docs', // Usually your repo name.
 
   onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn',
 
   markdown: {
-    hooks: {
-      onBrokenMarkdownLinks: 'warn',
-    },
   },
 
   // Even if you don't use internationalization, you can use this field to set
