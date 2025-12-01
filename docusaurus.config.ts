@@ -15,7 +15,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://docs3.syskit.com',
+  url: 'https://docs.syskit.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For deployment on /home route
   baseUrl: '/home/',
@@ -26,7 +26,12 @@ const config: Config = {
   projectName: 'Syskit Docs', // Usually your repo name.
 
   onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  } as any, // Type assertion needed until types are updated for v4
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
