@@ -13,7 +13,7 @@ title: Syskit Docs
 ## Links to the Product Documentation
 
 * [Syskit Point](https://docs.syskit.com/point/)
-* [SPDockit](https://docs.syskit.com/spdockit)
-* [SPDockit Consultant](https://docs.syskit.com/spconsultant)
-* [Syskit Monitor](https://docs.syskit.com/monitor)
-* [SharePoint Best Practices](https://docs.syskit.com/bp)
+* [SPDockit](https://docs.syskit.com/spdockit/)
+* [SPDockit Consultant](https://docs.syskit.com/spdockit-consultant/)
+* [Syskit Monitor](https://docs.syskit.com/monitor/)
+* [SharePoint Best Practices](https://docs.syskit.com/bp/)
